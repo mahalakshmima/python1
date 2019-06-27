@@ -1,6 +1,6 @@
-natno=int(input()
+natno=int(input())
 total=0
-while(natno>1):
+while(natno>0):
   total=total+natno
-  natno=natnuo-1
+  natno=natno-1
 print(total)  
