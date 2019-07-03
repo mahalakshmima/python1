@@ -1,10 +1,10 @@
-p=int(input())
-temp=p
+m=int(input())
+temp=m
 r=0
-while(p>0):
-  dig=p%10
+while(m>0):
+  dig=m%10
   r=r*10+dig
-  p=p//10
+  m=m//10
 if(temp==r):
   print("yes")
 else:
