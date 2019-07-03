@@ -1,12 +1,12 @@
-m=int(input())
-temp=m
-rev3=0
-while(m>0):
-  e=m%10
-  rev3=rev3*10+e
-  m=m//10
-if(temp==m):
+p=int(input())
+temp=p
+r=0
+while(p>0):
+  dig=p%10
+  r=r*10+dig
+  p=p//10
+if(temp==r):
   print("yes")
-else;
+else:
   print("no")
   
