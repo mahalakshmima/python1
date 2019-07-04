@@ -1,0 +1,5 @@
+k12=int(input())
+k21=list(map(int,input().split()[:k12]))
+k21.sort()
+s1=int((len(k21))/2)
+print(k21[s1])
