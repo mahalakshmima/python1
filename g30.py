@@ -1,4 +1,4 @@
-ab11,cd11map(int,input().split())
+ab11,cd11=map(int,input().split())
 ab22,cd22=map(int,input().split())
 ab33=abs(ab11-ab22)
 cd33=abs(cd11-cd22)
