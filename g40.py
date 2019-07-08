@@ -1,11 +1,13 @@
-r11=int(input())
-r22=1
-r33=1 
-r=0
+r17=int(input())
+r27=1
+r37=1 
+r7=0
 print()
-while r11!=0:
-    r22=r33
-    r33=r
-    r=r22+r33
-    print(r,end=' ')
-r11=r11-1
+while r17!=0:
+    r27=r37
+    r37=r7
+    r7=r27+r37
+    print(r7,end=' ')
+    r17=r17-1
+
+
