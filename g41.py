@@ -1,4 +1,4 @@
 a,b=input().split()
 b=int(b)
-for h in range(b):
-print(a)
+for i in range(b):
+  print(a)
