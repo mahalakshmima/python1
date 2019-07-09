@@ -1,4 +1,4 @@
-a,b=input().split()
-b=int(b)
-for i in range(b):
-  print(a)
+a1,b1=input().split()
+b1=int(b1)
+for i in range(b1):
+  print(a1)
