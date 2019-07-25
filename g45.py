@@ -1,2 +1,2 @@
-rgv2=input()
-print(len(rgv2))
+rgv22=input()
+print(len(rgv22))
