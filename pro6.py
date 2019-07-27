@@ -7,4 +7,3 @@ for one12 in range(get1):
             if set1[one12]<set1[two21]<set1[three33]:
                 go1+=1
 print(go1)
-© 2019 GitHub, Inc.
