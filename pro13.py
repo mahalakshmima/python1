@@ -1,5 +1,5 @@
 mt1,rt1 = input().split()
-mt1,rt1 = int(mt), int(rt1)
+mt1,rt1 = int(mt1), int(rt1)
 Lt11 = [ int(x) for x in input().split()]
 for i in range(0,rt1) :
     at11,bt11 = input().split()
