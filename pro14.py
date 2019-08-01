@@ -9,4 +9,4 @@ for ic in lit21:
 	vall=0
 	for jc in range(ic[0]-1,ic[1]):
 		vall=vall^lit11[jc]
-  print(vall)
+        print(vall)
