@@ -1,0 +1,20 @@
+sst31=input()
+min31=len(sst31)
+i=0
+while(i<min3):
+    mt31=0
+    kt31=0
+    for j in range(len(sst31)):
+        kt31+=1
+        if(sst31[i]==sst31[j]):
+            if(kt31>mt31):
+                mt31=kt31
+            kt31=0
+        if(kt31>min31):
+            break
+    if(kt31>mt31):
+        mt31=kt31
+    if(mt31<min31):
+        min31=mt31
+    i+=1
+print(min31)
