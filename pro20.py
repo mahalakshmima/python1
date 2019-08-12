@@ -7,5 +7,5 @@ for i in lt1:
         break
     qt1=mmmt1 // i
     ct1+=qt1
-    mmmt=mmmt-i*qt1
+    mmmt1=mmmt1-i*qt1
 print(ct1)
