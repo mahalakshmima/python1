@@ -1,8 +1,8 @@
 nt12=int(input())
 lt12=list(map(int,input().split()))[:nt12]
 div2=int(nt12/2)
-at12=sum(lt12[:div])//len(lt12[:div])
-at22=sum(lt12[div:])//len(lt12[div:])
+at12=sum(lt12[:div2])//len(lt12[:div2])
+at22=sum(lt12[div2:])//len(lt12[div2:])
 if(at12==at22):
   print("yes")
 else:
